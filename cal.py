@@ -30,6 +30,10 @@ elif select == "/":
 # divides(%) two numbers
 elif select == "%":
     print(num1, "%", num2, "=", num1%num2)
+    
+# take out the exponent() of two numbers
+elif select == "":
+    print(num1, "", num2, "=", num1**num2)
 
 else:
     print("Invalid input")
